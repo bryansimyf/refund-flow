@@ -1,0 +1,6 @@
+{
+  "canceled": "The request was cancelled.",
+  "timeout": "The request timed out. Please try again.",
+  "network": "A network error occurred. Check your connection and try again.",
+  "http": "The request failed. Please try again."
+}

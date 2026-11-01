@@ -1,0 +1,50 @@
+{
+  "title": "Order",
+  "orderIdLabel": "Order ID",
+  "refund": "Refund",
+  "refundDialog": {
+    "title": "Refund",
+    "body": "Select the items you want to refund.",
+    "stepLabel": "Step {{current}}/{{total}}",
+    "stepSelect": "Select items",
+    "stepPreview": "Preview",
+    "previewHeading": "Refund preview",
+    "totalLabel": "Refund total",
+    "reasonLabel": "Reason",
+    "channelLabel": "Channel",
+    "reasonPlaceholder": "Select a reason",
+    "channelPlaceholder": "Select a channel",
+    "close": "Close",
+    "next": "Next",
+    "back": "Back",
+    "confirm": "Confirm",
+    "confirmDialog": {
+      "title": "Confirm refund",
+      "body": "Are you sure you want to submit this refund?",
+      "no": "No",
+      "yes": "Yes"
+    },
+    "reasons": {
+      "wrong_item": "Wrong item",
+      "missing_item": "Missing item",
+      "quality_issue": "Quality issue",
+      "late_delivery": "Late delivery",
+      "other": "Other"
+    },
+    "channels": {
+      "original_payment_method": "Original payment method",
+      "in_app_credit": "In-app credit"
+    }
+  },
+  "itemsHeading": "Items",
+  "deliveryFeeLabel": "Delivery fee",
+  "orderTotalLabel": "Total",
+  "quantityLabel": "x {{count}}",
+  "unitLabel": "Unit",
+  "addonsHeading": "Add-ons",
+  "status": {
+    "completed": "Completed",
+    "paid": "Paid",
+    "refunded": "Refunded"
+  }
+}

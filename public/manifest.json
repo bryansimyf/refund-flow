@@ -1,0 +1,8 @@
+{
+  "name": "%VITE_PUBLIC_TITLE%",
+  "short_name": "%VITE_PUBLIC_TITLE%",
+  "start_url": "%VITE_PUBLIC_URL%",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}

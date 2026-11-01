@@ -1,0 +1,6 @@
+{
+  "canceled": "Permintaan telah dibatalkan.",
+  "timeout": "Permintaan tamat masa. Sila cuba lagi.",
+  "network": "Ralat rangkaian berlaku. Semak sambungan anda dan cuba lagi.",
+  "http": "Permintaan gagal. Sila cuba lagi."
+}

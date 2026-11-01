@@ -1,0 +1,19 @@
+{
+  "actions": {
+    "ok": "OK",
+    "tryAgain": "Cuba lagi",
+    "home": "Kembali ke laman utama"
+  },
+  "generic": {
+    "loading": "Memuatkan",
+    "title": "Sesuatu tidak kena",
+    "message": "Sila cuba lagi."
+  },
+  "notFound": {
+    "title": "Halaman tidak dijumpai",
+    "body": "Kami tidak dapat mencari halaman yang anda cari."
+  },
+  "dialog": {
+    "errorTitle": "Ralat"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "actions": {
+    "ok": "OK",
+    "tryAgain": "Try again",
+    "home": "Back to home"
+  },
+  "generic": {
+    "loading": "Loading",
+    "title": "Something went wrong",
+    "message": "Please try again."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "We couldn't find the page you're looking for."
+  },
+  "dialog": {
+    "errorTitle": "Error"
+  }
+}

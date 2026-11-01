@@ -1,0 +1,50 @@
+{
+  "title": "Pesanan",
+  "orderIdLabel": "ID pesanan",
+  "refund": "Bayaran balik",
+  "refundDialog": {
+    "title": "Bayaran balik",
+    "body": "Pilih item yang ingin dibayar balik.",
+    "stepLabel": "Langkah {{current}}/{{total}}",
+    "stepSelect": "Pilih item",
+    "stepPreview": "Pratonton",
+    "previewHeading": "Pratonton bayaran balik",
+    "totalLabel": "Jumlah bayaran balik",
+    "reasonLabel": "Sebab",
+    "channelLabel": "Saluran",
+    "reasonPlaceholder": "Pilih sebab",
+    "channelPlaceholder": "Pilih saluran",
+    "close": "Tutup",
+    "next": "Seterusnya",
+    "back": "Kembali",
+    "confirm": "Sahkan",
+    "confirmDialog": {
+      "title": "Sahkan bayaran balik",
+      "body": "Adakah anda pasti mahu hantar bayaran balik ini?",
+      "no": "Tidak",
+      "yes": "Ya"
+    },
+    "reasons": {
+      "wrong_item": "Item salah",
+      "missing_item": "Item hilang",
+      "quality_issue": "Isu kualiti",
+      "late_delivery": "Penghantaran lewat",
+      "other": "Lain-lain"
+    },
+    "channels": {
+      "original_payment_method": "Kaedah bayaran asal",
+      "in_app_credit": "Kredit dalam aplikasi"
+    }
+  },
+  "itemsHeading": "Item",
+  "deliveryFeeLabel": "Caj penghantaran",
+  "orderTotalLabel": "Jumlah",
+  "quantityLabel": "x {{count}}",
+  "unitLabel": "Unit",
+  "addonsHeading": "Tambahan",
+  "status": {
+    "completed": "Selesai",
+    "paid": "Dibayar",
+    "refunded": "Dibayar balik"
+  }
+}

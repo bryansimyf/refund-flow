@@ -1,0 +1,7 @@
+When generating a commit message from Source Control:
+
+- Use a short imperative subject (max ~72 characters).
+- Explain why the change exists, not a file-by-file list.
+- Prefer prefixes like `feat:`, `fix:`, `chore:`, `docs:`, `refactor:`, `style:` when they fit.
+- Do not mention Cursor, Copilot, or that the commit was generated.
+- Do not include Co-authored-by lines unless the user asked for them.
