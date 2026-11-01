@@ -1,5 +1,6 @@
 {
   "name": "refund-flow",
+  "homepage": "https://bryansimyf.github.io/refund-flow/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -20,7 +21,9 @@
     "lint:fix": "eslint . --report-unused-disable-directives --max-warnings 0 --fix",
     "lint:format": "prettier --log-level warn --write \"./**/*.{ts,tsx,css,md,json}\"",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "predeploy": "pnpm test && VITE_PUBLIC_URL=/refund-flow/ VITE_ENABLE_MOCK_API=1 pnpm run build && cp dist/index.html dist/404.html",
+    "deploy": "gh-pages -d dist"
   },
   "pnpm": {
     "ignoredBuiltDependencies": [
@@ -51,6 +54,7 @@
     "@types/react-dom": "19.3.0",
     "@vitejs/plugin-react": "6.1.2",
     "axios-mock-adapter": "2.1.0",
+    "gh-pages": "^6.3.0",
     "eslint": "9.39.5",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-import-x": "4.17.1",

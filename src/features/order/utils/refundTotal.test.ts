@@ -1,9 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import {
-  computeRefundTotal,
-  type RefundPreviewUnit,
-} from "@/features/order/utils/refundTotal";
+import { computeRefundTotal, type RefundPreviewUnit } from "@/features/order/utils/refundTotal";
 
 function previewRow(
   overrides: Partial<RefundPreviewUnit> & Pick<RefundPreviewUnit, "unitId">,

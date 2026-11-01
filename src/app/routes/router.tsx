@@ -22,6 +22,6 @@ export const router = createBrowserRouter(
     },
   ],
   {
-    basename: environment.publicUrl || "/",
+    basename: environment.routerBasename,
   },
 );
