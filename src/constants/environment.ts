@@ -1,7 +1,14 @@
+const publicUrl = import.meta.env.VITE_PUBLIC_URL;
+
+/** React Router basename: no trailing slash except root `/`. */
+const routerBasename =
+  publicUrl === "/" || publicUrl === "" ? "/" : publicUrl.replace(/\/$/, "");
+
 export const environment = {
   appVersion: import.meta.env.VITE_APP_VERSION,
   env: import.meta.env.VITE_ENV,
-  publicUrl: import.meta.env.VITE_PUBLIC_URL,
+  publicUrl,
+  routerBasename,
   publicTitle: import.meta.env.VITE_PUBLIC_TITLE,
   appBaseUrl: import.meta.env.VITE_APP_BASE_URL,
   defaultLanguageCode: import.meta.env.VITE_DEFAULT_LANGUAGE_CODE,
