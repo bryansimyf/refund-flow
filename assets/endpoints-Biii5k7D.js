@@ -1,0 +1,1 @@
+var e={orders:{detail:`/order`}};export{e as t};
