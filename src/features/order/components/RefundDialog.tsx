@@ -369,8 +369,8 @@ export function RefundDialog({ open, onOpenChange, order }: RefundDialogProps) {
   return (
     <>
       <Dialog open={open} onOpenChange={handleDialogOpenChange}>
-        <DialogContent className="max-h-[calc(100%-2rem)] overflow-y-auto sm:max-w-lg">
-          <DialogHeader>
+        <DialogContent className="flex max-h-[calc(100dvh-2rem)] flex-col overflow-hidden sm:max-w-lg">
+          <DialogHeader className="shrink-0">
             <DialogTitle>{t("refundDialog.title")}</DialogTitle>
             <DialogDescription>{t("refundDialog.body")}</DialogDescription>
             <p className="text-label font-medium text-brand-700">
@@ -381,7 +381,7 @@ export function RefundDialog({ open, onOpenChange, order }: RefundDialogProps) {
           </DialogHeader>
           <div
             ref={stepBodyRef}
-            className="flex max-h-[60dvh] flex-col gap-4 overflow-y-auto no-scrollbar px-4 -mx-4"
+            className="flex min-h-0 flex-col gap-4 overflow-y-auto overscroll-contain no-scrollbar px-4 -mx-4"
           >
             {step === 1 ? (
               <StepRefund
@@ -402,7 +402,7 @@ export function RefundDialog({ open, onOpenChange, order }: RefundDialogProps) {
               />
             )}
           </div>
-          <div className="flex items-center justify-between gap-3 border-t border-grey-200 pt-4">
+          <div className="flex shrink-0 items-center justify-between gap-3 border-t border-grey-200 pt-4">
             <span className="text-body font-medium text-grey-900">
               {t("refundDialog.totalLabel")}
             </span>
@@ -410,7 +410,7 @@ export function RefundDialog({ open, onOpenChange, order }: RefundDialogProps) {
               {formatCurrency(order.currency, refundTotal)}
             </span>
           </div>
-          <DialogFooter>
+          <DialogFooter className="shrink-0">
             {step === 1 ? (
               <>
                 <Button
